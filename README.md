@@ -3,10 +3,10 @@
 
 ## deployments
 
-* [Orchestra.io][1]
-* [Heroku][2]
-* [Azure][3]
-* [Nodejitsu][4]
+[Orchestra.io][1]
+[Heroku][2]
+[Azure][3]
+[Nodejitsu][4]
 
 [1]: http://santa-cruz-pawn-shop.orchestra.io PHP
 [2]: http://santa-cruz-pawn-shop.herokuapp.com node.js
