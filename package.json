@@ -9,6 +9,6 @@
   },
   "subdomain": "santa-cruz-pawn-shop",
   "scripts": {
-    "start": "server.js"
+    "start": "node server.js"
   }
 }
