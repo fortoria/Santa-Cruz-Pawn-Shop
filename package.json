@@ -27,5 +27,9 @@
   },
   "engine": {
     "node": ">=0.4"
+  },
+  "subdomain": "santa-cruz-pawn-shop",
+  "scripts": {
+    "start": "server.js"
   }
 }
