@@ -1,27 +1,6 @@
 {
   "name": "Santa-Cruz-Pawn-Shop",
   "version": "0.0.1",
-  "author": "Fortune2 <frederick@fortune2.com>",
-  "description": "Santa Cruz Pawn Shop website",
-  "contributors": [
-    {
-      "name": "Henry Allen-Tilford",
-      "email": "htilford@gmail.com"
-    },
-    {
-      "name": "Victoria Fortune",
-      "email": "fortoria@gmail.com"
-    },
-    {
-      "name": "Frederick Fortune",
-      "email": "frederick@fortune2.com"
-    }
-  ],
-  "main": "./server.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/generalhenry/Santa-Cruz-Pawn-Shop.git"
-  },
   "dependencies": {
     "express": "2.5.x"
   },
