@@ -1,5 +1,4 @@
 info it worked if it ends with ok
-<<<<<<< HEAD
 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 verbose cli   'test' ]
@@ -10,84 +9,35 @@ verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
 verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
 verbose mkdir done: C:\Users\henry.tilford\AppData\Roaming\npm 755
 verbose caching C:\Users\henry.tilford\github\Santa-Cruz-Pawn-Shop\package.json
-verbose loadDefaults Santa-Cruz-Pawn-Shop@0.0.1-1
+verbose loadDefaults Santa-Cruz-Pawn-Shop@0.0.1-2
 verbose run-script [ 'pretest', 'test', 'posttest' ]
-info pretest Santa-Cruz-Pawn-Shop@0.0.1-1
-info test Santa-Cruz-Pawn-Shop@0.0.1-1
+info pretest Santa-Cruz-Pawn-Shop@0.0.1-2
+info test Santa-Cruz-Pawn-Shop@0.0.1-2
 verbose unsafe-perm in lifecycle true
-silly exec cmd "/c" "./node node_modules/tap/bin/tap.js tests/*/*.js"
+silly exec cmd "/c" "./node_modules/tap/bin/tap.js tests/*/*.js"
 silly spawning [ 'cmd',
-silly spawning   [ '/c', './node node_modules/tap/bin/tap.js tests/*/*.js' ],
+silly spawning   [ '/c', './node_modules/tap/bin/tap.js tests/*/*.js' ],
 silly spawning   'C:\\Users\\henry.tilford\\github\\Santa-Cruz-Pawn-Shop' ]
-info Santa-Cruz-Pawn-Shop@0.0.1-1 Failed to exec test script
-ERR! Santa-Cruz-Pawn-Shop@0.0.1-1 test: `./node node_modules/tap/bin/tap.js tests/*/*.js`
-ERR! `cmd "/c" "./node node_modules/tap/bin/tap.js tests/*/*.js"` failed with 1
+info Santa-Cruz-Pawn-Shop@0.0.1-2 Failed to exec test script
+ERR! Santa-Cruz-Pawn-Shop@0.0.1-2 test: `./node_modules/tap/bin/tap.js tests/*/*.js`
+ERR! `cmd "/c" "./node_modules/tap/bin/tap.js tests/*/*.js"` failed with 1
 ERR! 
-ERR! Failed at the Santa-Cruz-Pawn-Shop@0.0.1-1 test script.
+ERR! Failed at the Santa-Cruz-Pawn-Shop@0.0.1-2 test script.
 ERR! This is most likely a problem with the Santa-Cruz-Pawn-Shop package,
 ERR! not with npm itself.
 ERR! Tell the author that this fails on your system:
-ERR!     ./node node_modules/tap/bin/tap.js tests/*/*.js
-=======
-verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
-info using npm@1.0.106
-info using node@v0.6.8
-verbose config file /root/.npmrc
-verbose config file /usr/local/etc/npmrc
-verbose config file /usr/local/lib/node_modules/npm/npmrc
-silly testEngine { name: 'Santa-Cruz-Pawn-Shop',
-silly testEngine   version: '0.0.1',
-silly testEngine   dependencies: { express: '2.5.x' },
-silly testEngine   engine: { node: '>=0.4' },
-silly testEngine   subdomain: 'santa-cruz-pawn-shop',
-silly testEngine   scripts: { start: 'node server.js' },
-silly testEngine   _id: 'Santa-Cruz-Pawn-Shop@0.0.1',
-silly testEngine   devDependencies: {},
-silly testEngine   engines: { node: '*' },
-silly testEngine   _engineSupported: true,
-silly testEngine   _npmVersion: '1.0.106',
-silly testEngine   _nodeVersion: 'v0.6.8',
-silly testEngine   _defaultsLoaded: true }
-verbose caching /root/Santa-Cruz-Pawn-Shop/package.json
-verbose loadDefaults Santa-Cruz-Pawn-Shop@0.0.1
-verbose run-script [ 'prestart', 'start', 'poststart' ]
-info prestart Santa-Cruz-Pawn-Shop@0.0.1
-info start Santa-Cruz-Pawn-Shop@0.0.1
-verbose unsafe-perm in lifecycle true
-silly exec sh "-c" "node server.js"
-silly spawning [ 'sh',
-silly spawning   [ '-c', 'node server.js' ],
-silly spawning   '/root/Santa-Cruz-Pawn-Shop' ]
-info Santa-Cruz-Pawn-Shop@0.0.1 Failed to exec start script
-ERR! Santa-Cruz-Pawn-Shop@0.0.1 start: `node server.js`
-ERR! `sh "-c" "node server.js"` failed with 1
-ERR! 
-ERR! Failed at the Santa-Cruz-Pawn-Shop@0.0.1 start script.
-ERR! This is most likely a problem with the Santa-Cruz-Pawn-Shop package,
-ERR! not with npm itself.
-ERR! Tell the author that this fails on your system:
-ERR!     node server.js
->>>>>>> 6f8b387090c894d783cc64bf94fe361d59246b2b
+ERR!     ./node_modules/tap/bin/tap.js tests/*/*.js
 ERR! You can get their info via:
 ERR!     npm owner ls Santa-Cruz-Pawn-Shop
 ERR! There is likely additional logging output above.
 ERR! 
-<<<<<<< HEAD
 ERR! System Windows_NT 6.1.7601
 ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "test"
 ERR! cwd C:\Users\henry.tilford\github\Santa-Cruz-Pawn-Shop
 ERR! node -v v0.6.8
 ERR! npm -v 1.1.0-2
 ERR! code ELIFECYCLE
-ERR! message Santa-Cruz-Pawn-Shop@0.0.1-1 test: `./node node_modules/tap/bin/tap.js tests/*/*.js`
-ERR! message `cmd "/c" "./node node_modules/tap/bin/tap.js tests/*/*.js"` failed with 1
+ERR! message Santa-Cruz-Pawn-Shop@0.0.1-2 test: `./node_modules/tap/bin/tap.js tests/*/*.js`
+ERR! message `cmd "/c" "./node_modules/tap/bin/tap.js tests/*/*.js"` failed with 1
 ERR! errno {}
-=======
-ERR! System Linux 3.0.4-linode38
-ERR! command "node" "/usr/local/bin/npm" "start"
-ERR! cwd /root/Santa-Cruz-Pawn-Shop
-ERR! node -v v0.6.8
-ERR! npm -v 1.0.106
-ERR! code ELIFECYCLE
->>>>>>> 6f8b387090c894d783cc64bf94fe361d59246b2b
 verbose exit [ 1, true ]
