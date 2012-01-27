@@ -4,11 +4,16 @@
   "dependencies": {
     "express": "2.5.x"
   },
+  "devDependencies": {
+    "tap": "0.2.x",
+    "request": "2.1.x"
+  },
   "engine": {
     "node": ">=0.4"
   },
   "subdomain": "santa-cruz-pawn-shop",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./server.js",
+    "test": "tap ./tests"
   }
 }
