@@ -1,5 +1,7 @@
 # Santa Cruz Pawn Shop Website
 
+[![build status](https://secure.travis-ci.org/generalhenry/Santa-Cruz-Pawn-Shop.png)](http://travis-ci.org/generalhenry/Santa-Cruz-Pawn-Shop)
+
 
 ## deployments
 
