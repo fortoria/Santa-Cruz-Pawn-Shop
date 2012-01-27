@@ -14,6 +14,6 @@
   "subdomain": "santa-cruz-pawn-shop",
   "scripts": {
     "start": "node ./server.js",
-    "test": "tap ./tests"
+    "test": "./node node_modules/tap/bin/tap.js tests/*/*.js"
   }
 }

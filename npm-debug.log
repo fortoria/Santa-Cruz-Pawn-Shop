@@ -1,0 +1,43 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'test' ]
+info using npm@1.1.0-2
+info using node@v0.6.8
+verbose config file C:\Users\henry.tilford\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\henry.tilford\AppData\Roaming\npm 755
+verbose caching C:\Users\henry.tilford\github\Santa-Cruz-Pawn-Shop\package.json
+verbose loadDefaults Santa-Cruz-Pawn-Shop@0.0.1-1
+verbose run-script [ 'pretest', 'test', 'posttest' ]
+info pretest Santa-Cruz-Pawn-Shop@0.0.1-1
+info test Santa-Cruz-Pawn-Shop@0.0.1-1
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "./node node_modules/tap/bin/tap.js tests/*/*.js"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', './node node_modules/tap/bin/tap.js tests/*/*.js' ],
+silly spawning   'C:\\Users\\henry.tilford\\github\\Santa-Cruz-Pawn-Shop' ]
+info Santa-Cruz-Pawn-Shop@0.0.1-1 Failed to exec test script
+ERR! Santa-Cruz-Pawn-Shop@0.0.1-1 test: `./node node_modules/tap/bin/tap.js tests/*/*.js`
+ERR! `cmd "/c" "./node node_modules/tap/bin/tap.js tests/*/*.js"` failed with 1
+ERR! 
+ERR! Failed at the Santa-Cruz-Pawn-Shop@0.0.1-1 test script.
+ERR! This is most likely a problem with the Santa-Cruz-Pawn-Shop package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     ./node node_modules/tap/bin/tap.js tests/*/*.js
+ERR! You can get their info via:
+ERR!     npm owner ls Santa-Cruz-Pawn-Shop
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "test"
+ERR! cwd C:\Users\henry.tilford\github\Santa-Cruz-Pawn-Shop
+ERR! node -v v0.6.8
+ERR! npm -v 1.1.0-2
+ERR! code ELIFECYCLE
+ERR! message Santa-Cruz-Pawn-Shop@0.0.1-1 test: `./node node_modules/tap/bin/tap.js tests/*/*.js`
+ERR! message `cmd "/c" "./node node_modules/tap/bin/tap.js tests/*/*.js"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]
