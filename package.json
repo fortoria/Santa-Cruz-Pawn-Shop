@@ -6,7 +6,8 @@
   },
   "devDependencies": {
     "tap": "0.2.x",
-    "request": "2.9.x"
+    "request": "2.9.x",
+    "jshint": "0.5.x"
   },
   "engine": {
     "node": ">=0.4"
