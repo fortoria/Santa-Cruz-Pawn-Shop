@@ -14,8 +14,8 @@
   },
   "subdomain": "santa-cruz-pawn-shop",
   "scripts": {
-    "start": "node ./server.js",
-    "test": "./node_modules/tap/bin/tap.js ./tests"
+    "start": "node server.js",
+    "test": "node_modules/.bin/tap tests"
   },
-  "main": "./server.js"
+  "main": "server.js"
 }
