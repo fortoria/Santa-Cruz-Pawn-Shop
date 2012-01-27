@@ -9,8 +9,8 @@ test("jshint all .js files", function (t) {
   require('child_process').exec(
     __dirname + '/../node_modules/.bin/jshint .', 
     function (error, stdout, stderr) {
-      t.notOk(error, 'no execution error');
-      t.notOk(stderr, 'no standard error');
+      t.notOk(error, 'no execution error' + error);
+      t.notOr(stderr, 'no standard error');
       t.equal(stdout, '', 'no hints');
   });
 });
